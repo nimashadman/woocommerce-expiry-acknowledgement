@@ -1,0 +1,32 @@
+.wcea-confirmation {
+	display: flex;
+	align-items: flex-start;
+	gap: 9px;
+	width: 100%;
+	margin: 0 0 14px;
+	padding: 10px 12px;
+	border: 1px solid rgba(0, 0, 0, .09);
+	border-radius: var(--wd-brd-radius, 5px);
+	background: rgba(0, 0, 0, .025);
+	font-size: 13px;
+	line-height: 1.7;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.wcea-confirmation input[type="checkbox"] {
+	flex: 0 0 auto;
+	width: 17px;
+	height: 17px;
+	margin: 3px 0 0;
+	accent-color: var(--wd-primary-color, #83b735);
+}
+
+.wcea-confirmation:focus-within {
+	border-color: var(--wd-primary-color, #83b735);
+}
+
+html[dir="rtl"] .wcea-confirmation {
+	text-align: right;
+}
+
