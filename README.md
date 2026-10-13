@@ -2,6 +2,8 @@
 
 A lightweight WooCommerce plugin that requires customers to acknowledge the product expiry date before adding eligible products to the cart.
 
+افزونه‌ای سبک برای ووکامرس که مشتری را قبل از افزودن محصول به سبد خرید، ملزم به تأیید مشاهده تاریخ انقضا می‌کند.
+
 The plugin is useful for stores that sell products where expiry-date visibility matters, such as health, beauty, food, supplement, or inventory-sensitive products.
 
 ## Features
