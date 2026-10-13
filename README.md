@@ -1,57 +1,46 @@
-# WooCommerce Expiry Acknowledgement
-
-A lightweight WooCommerce plugin that requires customers to acknowledge the product expiry date before adding eligible products to the cart.
+# تأیید تاریخ انقضا برای ووکامرس
 
 افزونه‌ای سبک برای ووکامرس که مشتری را قبل از افزودن محصول به سبد خرید، ملزم به تأیید مشاهده تاریخ انقضا می‌کند.
 
-The plugin is useful for stores that sell products where expiry-date visibility matters, such as health, beauty, food, supplement, or inventory-sensitive products.
+این افزونه برای فروشگاه‌هایی مناسب است که نمایش و تأیید تاریخ انقضای محصول اهمیت دارد؛ مثل محصولات آرایشی، بهداشتی، غذایی، مکمل‌ها یا کالاهایی که تاریخ مصرف آن‌ها برای مشتری مهم است.
 
-## Features
+## امکانات
 
-- Adds a required expiry-date confirmation checkbox on WooCommerce product pages.
-- Validates the confirmation server-side before adding the product to the cart.
-- Redirects archive/shop add-to-cart buttons to the product page so the acknowledgement cannot be skipped.
-- Works by default for all products.
-- Allows disabling the acknowledgement per product from the WooCommerce product editor.
-- Includes RTL-friendly styling and WoodMart-compatible CSS variables.
+- افزودن چک‌باکس اجباری تأیید مشاهده تاریخ انقضا در صفحه محصول ووکامرس.
+- بررسی تأیید مشتری در سمت سرور پیش از افزودن محصول به سبد خرید.
+- هدایت دکمه افزودن به سبد خرید در صفحه فروشگاه/آرشیو به صفحه محصول، برای جلوگیری از دور زدن تأیید.
+- فعال بودن پیش‌فرض برای همه محصولات.
+- امکان غیرفعال‌سازی برای هر محصول از داخل ویرایشگر محصول ووکامرس.
+- استایل سبک، راست‌چین و سازگار با متغیرهای قالب WoodMart.
 
-## Installation
+## نصب
 
-1. Download the plugin ZIP.
-2. In WordPress, go to **Plugins > Add New > Upload Plugin**.
-3. Upload the ZIP file and activate the plugin.
-4. Make sure WooCommerce is active.
+1. فایل ZIP افزونه را دانلود کنید.
+2. در پیشخوان وردپرس وارد بخش **افزونه‌ها > افزودن افزونه تازه > بارگذاری افزونه** شوید.
+3. فایل ZIP را بارگذاری و افزونه را فعال کنید.
+4. مطمئن شوید ووکامرس فعال است.
 
-## Usage
+## نحوه استفاده
 
-After activation, the acknowledgement checkbox is enabled for all WooCommerce products by default.
+بعد از فعال‌سازی، تأیید مشاهده تاریخ انقضا به‌صورت پیش‌فرض برای همه محصولات ووکامرس فعال است.
 
-To disable it for a specific product:
+برای غیرفعال کردن این قابلیت برای یک محصول خاص:
 
-1. Edit the product in WordPress.
-2. Open **Product data > General**.
-3. Set **Expiry date acknowledgement** to **Disabled for this product**.
-4. Save the product.
+1. محصول را در وردپرس ویرایش کنید.
+2. وارد بخش **اطلاعات محصول > همگانی** شوید.
+3. گزینه **تأیید تاریخ انقضا** را روی **غیرفعال برای این محصول** قرار دهید.
+4. محصول را ذخیره کنید.
 
-## Requirements
+## نیازمندی‌ها
 
-- WordPress 6.0 or newer
-- WooCommerce 7.0 or newer
-- PHP 7.4 or newer
+- وردپرس 6.0 یا جدیدتر
+- ووکامرس 7.0 یا جدیدتر
+- PHP 7.4 یا جدیدتر
 
-## Repository Name
-
-Recommended GitHub repository name:
-
-```text
-woocommerce-expiry-acknowledgement
-```
-
-Alternative shorter names:
-
-- `wc-expiry-ack`
-- `woocommerce-expiry-confirmation`
-
-## License
+## مجوز
 
 GPL-2.0-or-later
+
+## توسعه‌دهنده
+
+نیما شادمان - [nimashadman.ir](https://nimashadman.ir)
